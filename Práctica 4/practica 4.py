@@ -26,3 +26,4 @@ print ("1 no pertenece al conjunto A: ", 1 not in A)
 print ("56 pertenece al conjunto A: ", 56 in A)
 print ("68 no pertenece al conjunto A: ", 68 not in A)
 print ("1 no pertenece al conjunto A: ", 1 not in A)
+
