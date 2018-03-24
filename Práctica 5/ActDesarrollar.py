@@ -87,7 +87,8 @@ while continuar == "si":
 	print("\t4. Modificar mi carrito")
 	print("\t5. Salir")
 
-	opcion = input("\n\tIngresa tu opcion: ")
+	# opcion = input("\n\tIngresa tu opcion: ")
+	opcion = "5"
 	cls()
 	if opcion == "1":
 		elegir_producto("COMPUTADORAS", computadoras)
@@ -101,3 +102,19 @@ while continuar == "si":
 		continuar = "no"
 	else:
 		print("\tOpción incorrecta")
+
+
+print("\n Variables que se manejaron y su LITERAL")
+print("\tcomputadoras\n\t\tValor",computadoras,"\n\t\tTipo: ", type(computadoras))
+print("\tprocesadores\n\t\tValor",procesadores,"\n\t\tTipo: ", type(procesadores))
+print("\tcarrito\n\t\tValor:",carrito,"\n\t\tTipo: ", type(carrito))
+print("\tiva\n\t\tValor",iva,"\n\t\tTipo: ", type(iva))
+print("\tcontinuar\n\t\tValor",continuar,"\n\t\tTipo: ", type(continuar))
+print("\ttotal_carrito\n\t\tValor",total_carrito,"\n\t\tTipo: ", type(total_carrito))
+print("\telegir_producto\n\t\t",elegir_producto,"\n\t\tTipo: ", type(elegir_producto))
+print("\tmodificar_carrito\n\t\tValor",modificar_carrito,"\n\t\tTipo: ", type(modificar_carrito))
+
+print("\n Literales que se utilizaron:")
+print("\tSUBTOTAL: %.2f % subtotal")
+print("\tTOTAL: %.2f")
+print("\tingresa , len(carrito) + 1,  para cancelar")
